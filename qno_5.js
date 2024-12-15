@@ -1,7 +1,12 @@
 //Write a function that finds and prints the smallest number among three given numbers.
 
+
 function findSmallestNumber(num1,num2,num3){
 
+
+    if(isNaN(num1) || isNaN(num2) || isNaN(num3)){
+        return console.log("Only numbers are allowed!");
+    }
     let smallest = num1;
 
 
@@ -17,4 +22,6 @@ function findSmallestNumber(num1,num2,num3){
 
 }
 
-findSmallestNumber(40,20,30);
+findSmallestNumber(3,"hello",3);
+
+
