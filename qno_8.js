@@ -1,4 +1,4 @@
-//Write a dunction that tells if provided year is a leap year or not
+//Write a function that tells if provided year is a leap year or not
 
 function checkLeapYear(year){
 
