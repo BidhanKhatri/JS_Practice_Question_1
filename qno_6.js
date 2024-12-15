@@ -3,8 +3,12 @@
 const str = "bidhan";
 function reverseString(str){
 
-const result =  str.split('').reverse().join('');
-return result;    
+    if(typeof str !== 'string'){
+        throw new Error('Input must be a string')
+        }
+
+    const result =  str.split('').reverse().join('');
+    return result;    
 
 }
 
